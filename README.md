@@ -1,2 +1,2 @@
 # teachers-connect-site
-Build along with 3 other students
+Built along with 3 other students
