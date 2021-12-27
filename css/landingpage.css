@@ -1,0 +1,650 @@
+
+/* Landing Page CSS */
+
+.landing-page{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nato Sans JP", sans-serif;
+    background: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: white;
+    background-size: cover;
+    background-position: top;
+    /* background-position: center; */
+}
+
+.landing-navbar-header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.landing-logo{
+    position: relative;
+    color: green;
+}
+
+.landing-navbar a{
+    color: green;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.landing-navbar a:hover{
+    background-color: orange;
+    color: white;
+    padding: 20px 15px;
+    font-size: 20px;
+}
+
+.landing-buttons{
+    color: green;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.landing-buttons:hover{
+    background-color: rgb(128, 221, 128);
+    padding: 18px 15px;
+}
+
+.landing-btn1{
+    position: relative;
+    background-color:lightgreen; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.landing-btn2{
+    background-color:orange;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.landing-btn1:hover{
+    background-color:white; 
+    border: none;
+    color: lightgreen;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.landing-btn2:hover{
+    background-color:white;
+    border: none;
+    color: orange;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.landing-content{
+    width:100%;
+    height:50%;
+    padding:1%;
+    display: block;
+}
+
+.landing-info{
+    margin: 5%;
+    padding: 5%;
+}
+
+
+.landing-content .landing-info h2{
+    color: green;
+    font-size: 55px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
+
+.landing-image{
+    max-width: 600px;
+    max-height: 400px;
+    position: relative;
+    float: right;
+}
+
+
+#landing-about{
+    color: green;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    line-height: 40px;
+    padding:10%;
+    display: block;
+}
+
+.landing-btn3{
+    background-color:green; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-bottom: 200px;
+}
+
+.landing-btn3:hover{
+    background-color:orange; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+
+#landing-contact{
+    color: green;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0px;
+    line-height: 40px;
+    display: inline-flex;
+    padding-right: 10%;
+    width: 100%;
+    justify-content: center;
+}
+
+.landing-form-control{
+    position: relative;
+    color: black;
+    opacity:  1;
+    font-size: 20px;
+    padding: 10px 50px;
+    font-weight: normal;
+    border-radius: 20px;
+    transition: 0.4s;
+    padding-right: 30px;
+
+}
+
+.landing-form-control:hover{
+    border-color: green;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.landing-btn4{
+    background-color:green; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-bottom: 200px;
+}
+
+.landing-btn4:hover{
+    background-color:orange; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.landing-image-mail{
+    max-width: 600px;
+    float: right;
+}
+
+textarea {
+    width: 350px;
+    height: 300px;
+}
+
+.landing-logo{
+    max-height: 30%;
+    max-width: 60%;
+}
+
+
+@media screen and (max-width: 1170px) {
+     
+    .landing-content{
+        width:90%;
+        height:40%;
+        padding:0.5%;
+        display: block;
+    }
+    
+    .landing-info{
+        margin: 5%;
+        padding: 5%;
+    }
+    
+    
+    .landing-content .landing-info h2{
+        color: green;
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 40px;
+    }
+    
+    
+    .landing-image{
+        max-width: 500px;
+        max-height: 300px;
+        position: relative;
+        float: right;
+    }
+    
+    
+    #landing-about{
+        color: green;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        line-height: 20px;
+        padding:5%;
+        display: block;
+    }
+    
+    .landing-btn3{
+        background-color:green; 
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-bottom: 100px;
+    }
+    
+    .landing-btn3:hover{
+        background-color:orange; 
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+    
+    
+    #landing-contact{
+        color: green;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        line-height: 30px;
+        display: inline-flex;
+        padding-right: 5%;
+        width: 90%;
+        justify-content: center;
+    }
+    
+    .landing-form-control{
+        position: relative;
+        color: black;
+        opacity:  1;
+        font-size: 15px;
+        padding: 5px 40px;
+        font-weight: normal;
+        border-radius: 10px;
+        transition: 0.4s;
+        padding-right: 20px;
+    
+    }
+    
+    .landing-form-control:hover{
+        border-color: green;
+        border-radius: 3px;
+        border-width: 1px;
+    }
+    
+    .landing-btn4{
+        background-color:green; 
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-bottom: 100px;
+    }
+    
+    .landing-btn4:hover{
+        background-color:orange; 
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+    
+    .landing-image-mail{
+        max-width: 400px;
+        float: right;
+    }
+    
+    textarea {
+        width: 250px;
+        height: 100px;
+    }
+    
+    .landing-logo{
+        max-height: 20%;
+        max-width: 50%;
+    }
+    
+
+} 
+
+@media screen and (max-width: 1170px) {
+
+    .landing-content{
+        width:90%;
+        height:40%;
+        padding:0.5%;
+        display: block;
+    }
+    
+    .landing-info{
+        margin: 5%;
+        padding: 5%;
+    }
+    
+    
+    .landing-content .landing-info h2{
+        color: green;
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 40px;
+    }
+    
+    
+    .landing-image{
+        max-width: 500px;
+        max-height: 300px;
+        position: relative;
+        float: right;
+    }
+
+} 
+
+
+ 
+@media screen and (max-width: 898px) {
+      
+    .landing-navbar a{
+        color: green;
+        text-decoration: none;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        padding: 1px 10px;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+
+    .landing-navbar a:hover{
+        background-color: orange;
+        color: white;
+        padding: 1px 10px;
+        font-size: 15px;
+    }
+
+    .landing-buttons{
+        color: green;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+
+    .landing-buttons:hover{
+        background-color: rgb(128, 221, 128);
+        padding: 5px;
+    }
+
+    .landing-btn1{
+        position: relative;
+        background-color:lightgreen; 
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+    .landing-btn2{
+        background-color:orange;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+
+    .landing-btn1:hover{
+        background-color:white; 
+        border: none;
+        color: lightgreen;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 16px;
+        transition: 0.3s;
+    }
+    .landing-btn2:hover{
+        background-color:white;
+        border: none;
+        color: orange;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 16px;
+        transition: 0.3s;
+    }
+
+    .landing-content .landing-info h2{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .landing-image{
+        max-width: 500px;
+        max-height: 300px;
+    }
+
+} 
+
+@media screen and (max-width: 817px) {
+    
+    #h2{
+        padding-right: 1px;
+    }
+
+    .landing-info{
+        margin: 5%;
+        padding: 5%;
+    }
+    
+
+    .landing-navbar a{
+        color: green;
+        text-decoration: none;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        border-radius: 5px;
+        transition: 0.3s;
+        padding: 1px;
+        font-size: 10px;
+    }
+
+    .landing-navbar a:hover{
+        background-color: orange;
+        color: white;
+    }
+
+    .landing-buttons{
+        color: green;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .landing-buttons:hover{
+        background-color: rgb(128, 221, 128);
+        padding: 3px;
+    }
+
+    .landing-btn1{
+        position: relative;
+        background-color:lightgreen; 
+        border: none;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    .landing-btn2{
+        background-color:orange;
+        border: none;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .landing-btn1:hover{
+        background-color:white; 
+        border: none;
+        color: lightgreen;
+        padding: 1px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .landing-btn2:hover{
+        background-color:white;
+        border: none;
+        color: orange;
+        padding: 1px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .landing-content .landing-info h2{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    .landing-image{
+        max-width: 400px;
+        max-height: 200px;
+    }
+
+} 
+
+@media screen and (max-width: 1000px) {
+    .landing-image-mail{
+        max-width: 300px;
+        float: right;
+    }
+    
+    textarea {
+        width: 250px;
+        height: 200px;
+    }
+    
+}

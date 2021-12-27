@@ -1,0 +1,40 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #38F094;
+  }
+
+.create-post{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	padding: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.card{
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.side-bar-profile-pic{
+	width: 75%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+  

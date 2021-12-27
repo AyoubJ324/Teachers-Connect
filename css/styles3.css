@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #38F094;
+    overflow-y: scroll; 
+    overflow-x:hidden;
+}
+
+#form{
+    width: 537px;
+    height: 1080px;
+    margin: auto;
+    background:#86FFC2; 
+    padding: 153px;
+}
+
+
+#submit{
+    color:white;
+    background: #007BFF;
+    padding: 5px;
+    margin-left: 45%;
+}
+
+.imgcontainter{
+    margin: auto;
+    width: 350px;
+    height: 153px;
+    margin-top: 176px;
+}
+
+#logo{
+    margin: auto;
+    width: 350px;
+    height: 153px;
+}
+
+#username-lable{
+    margin-left: 93px;
+
+}
+#username{
+    margin-left: 93px;
+    width: 350px;
+    height: 29px;
+}
+
+#password-lable{
+    margin-left: 93px;
+}
+
+#password{
+    margin-left: 93px;
+    width: 350px;
+    height: 29px;
+}
+
+#checkbox{
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 120px;
+    padding-top: 11px;
+}
+
+#link{
+    margin-left: 60%;
+    display: inline-block;
+    padding-right: 80px;
+    white-space: nowrap;
+}
+
+#bottomText{
+    width: 179px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+#or{
+    color: grey;
+}
+

@@ -1,0 +1,188 @@
+/* Main Background colour */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  font-family: Arial, sans-serif;
+	background-color: #38F094;
+}
+
+.main-background {
+  background: #38F094;
+  height: 100%;
+}
+
+#profile-home-panel {
+  display: block;
+}
+
+@media screen and (max-width: 414px) {
+  #profile-home-panel {
+    display: none;
+  }
+
+  #home-feed {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/**
+ * The following classes are used to style the login/registration screens
+ */
+
+.login-card {
+  width: 30%;
+  margin: auto;
+}
+
+.login-logo {
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .login-card {
+    width: 50%;
+    margin: auto;
+  }
+
+  .login-logo {
+    width: 75%;
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .login-card {
+    width: 60%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .login-logo {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.login-input {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-error-message {
+  color: red;
+}
+
+.login-info-text {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: grey;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid grey;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.login-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+/**
+  * The following classes are used for displaying profiles
+  */
+
+.rounded-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.padding-1pcent {
+  padding: 1%;
+}
+
+.padding-5pcent-lr {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.profile-card {
+  margin-top: 2%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.right-margin-1pcent {
+  margin-right: 1%;
+}
+
+.subtitle {
+  color: lightgrey;
+}
+
+.about-me-text {
+  font-size: 15px;
+}
+
+.underlined-header {
+  text-decoration: underline;
+}
+
+.current-organisation {
+  margin-left: 25.5%;
+}
+
+.current-organisation-photo {
+  margin-left: 2%;
+  height: 80px;
+  width: 80px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+/**
+  * A card to display their profile picture, name, headline and an action button
+  */
+.person-card {
+  width: 18rem;
+}
+
+.person-card-banned {
+  width: 20rem;
+}
+
+.hoverable:hover {
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+
+.new-line-text {
+  white-space: pre-line;
+}
